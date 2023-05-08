@@ -12,6 +12,8 @@ for (let i=0; i < image.length; i++) {
     // principale
     const card = document.createElement('div');
 
+    card.classList.add("item");
+
     card.innerHTML = `<img src="img/${cicleImage}" alt="immagine">`;
 
     document.getElementById("container").append(card);
